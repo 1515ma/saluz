@@ -13,8 +13,8 @@ export default function HomePage() {
   return (
     <>
       <SEO
-        title="Indústria de Sacolas Plásticas e Bobinas Personalizadas"
-        description="Saluz Plastics — indústria de sacolas plásticas com impressão personalizada da sua marca, bobinas industriais e sacolas tipo camiseta. Qualidade, prazo e atendimento direto da fábrica."
+        title="Indústria de Sacolas Plásticas e Bobinas"
+        description="Saluz Plastics — indústria de sacolas plásticas, bobinas industriais e sacolas tipo camiseta. Qualidade, prazo e atendimento direto da fábrica."
         url="/"
         jsonLd={localBusinessSchema()}
       />
