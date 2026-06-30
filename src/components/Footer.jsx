@@ -59,7 +59,7 @@ export default function Footer() {
             <ul className="space-y-4 text-sm text-white/65">
               <li className="flex items-start gap-3">
                 <MapPin className="h-4 w-4 text-brand-400 mt-1 flex-shrink-0" />
-                <span>Rua das Indústrias, 1234<br />São Paulo / SP — CEP 00000-000</span>
+                <span>Rua Carlopolis, 181<br />Guarulhos / SP — CEP 07170-540</span>
               </li>
               <li className="flex items-start gap-3">
                 <Phone className="h-4 w-4 text-brand-400 mt-1 flex-shrink-0" />
