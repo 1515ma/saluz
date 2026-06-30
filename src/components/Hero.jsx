@@ -38,9 +38,9 @@ export default function Hero() {
             className="mt-6 font-display text-5xl md:text-6xl xl:text-7xl 2xl:text-8xl font-black leading-[1.02] tracking-tight"
           >
             Sacolas plásticas <br />
-            que carregam <br />
+            de alta resistência <br />
             <span className="relative inline-block">
-              <span className="text-gradient">sua marca.</span>
+              <span className="text-gradient">para o seu dia a dia.</span>
               <motion.span
                 initial={{ scaleX: 0 }}
                 animate={{ scaleX: 1 }}
@@ -58,8 +58,7 @@ export default function Hero() {
             className="mt-7 max-w-xl text-lg text-ink-700/90 leading-relaxed"
           >
             A <strong className="text-ink-900">Saluz</strong> é uma indústria especializada em
-            <strong className="text-brand-700"> sacolas plásticas tipo camiseta</strong>, lisas e
-            <strong className="text-brand-700"> personalizadas com impressão</strong>. Produzimos com
+            <strong className="text-brand-700"> sacolas plásticas tipo camiseta</strong>, lisas. Produzimos com
             tecnologia, resistência reforçada e entrega para todo o Brasil.
           </motion.p>
 
@@ -156,7 +155,7 @@ export default function Hero() {
             </div>
             <div>
               <p className="text-[10px] uppercase tracking-wider text-ink-700/60 font-semibold">Produção</p>
-              <p className="font-display font-bold text-sm">Até 5 dias úteis</p>
+              <p className="font-display font-bold text-sm">Até 20 dias úteis</p>
             </div>
           </motion.div>
 
