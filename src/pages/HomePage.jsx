@@ -21,7 +21,6 @@ export default function HomePage() {
       <Hero />
       <About />
       <Products />
-      <LogoCustomizer />
       <Process />
       <Testimonials />
       <RecentPosts />
