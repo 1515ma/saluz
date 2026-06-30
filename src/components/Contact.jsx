@@ -16,24 +16,49 @@ export default function Contact() {
 
   const update = (k, v) => setForm((f) => ({ ...f, [k]: v }));
 
-  const onSubmit = (e) => {
+  const onSubmit = async (e) => {
     e.preventDefault();
     setStatus('sending');
-    setTimeout(() => {
-      setStatus('sent');
-      setTimeout(() => setStatus('idle'), 4000);
-      setForm({
-        name: '',
-        company: '',
-        email: '',
-        phone: '',
-        product: 'Sacola camiseta',
-        quantity: '',
-        message: '',
-      });
-    }, 1400);
-  };
 
+    try {
+      const response = await fetch("https://formspree.io/f/xeeblygd", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        body: JSON.stringify({
+          Nome: form.name,
+          Empresa: form.company,
+          Email: form.email,
+          Telefone: form.phone,
+          Produto: form.product,
+          Quantidade: form.quantity,
+          Mensagem: form.message
+        }) 
+      });
+
+      if (response.ok) {
+        setStatus('sent');
+        setTimeout(() => setStatus('idle'), 4000);
+        setForm({
+          name: '',
+          company: '',
+          email: '',
+          phone: '',
+          product: 'Sacola camiseta',
+          quantity: '',
+          message: '',
+        });
+      } else {
+        setStatus('idle');
+        alert("Houve um problema ao enviar. Tente novamente.");
+      }
+    } catch (error) {
+      setStatus('idle');
+      alert("Erro de conexão. Verifique sua internet.");
+    }
+  };
   return (
     <section className="relative py-24 lg:py-32 overflow-hidden">
       <div className="absolute -top-32 -right-32 -z-10 h-96 w-96 rounded-full bg-brand-500/10 blur-3xl" />
