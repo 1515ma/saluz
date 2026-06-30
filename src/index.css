@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  html {
+    scroll-behavior: smooth;
+    @apply bg-white text-ink-900;
+  }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    @apply bg-white text-ink-900 overflow-x-hidden;
+  }
+  ::selection {
+    background-color: #FF6600;
+    color: white;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f5f5f7;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #FF6600, #c44a17);
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #F26522;
+  }
+}
+
+@layer components {
+  .container-x {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: none;
+  }
+  @media (max-width: 768px) {
+    .container-x {
+      width: 92%;
+    }
+  }
+  .btn-primary {
+    @apply relative inline-flex items-center justify-center gap-2 rounded-full bg-brand-600 px-7 py-3.5 font-semibold text-white shadow-brand transition-all duration-300 hover:bg-brand-700 hover:shadow-brand-lg hover:-translate-y-0.5 active:translate-y-0;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-ink-900/10 bg-white px-7 py-3.5 font-semibold text-ink-900 transition-all duration-300 hover:border-brand-600/40 hover:text-brand-600 hover:-translate-y-0.5;
+  }
+  .chip {
+    @apply inline-flex items-center gap-2 rounded-full border border-brand-600/20 bg-brand-50 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-brand-700;
+  }
+  .section-title {
+    @apply font-display text-4xl font-bold tracking-tight text-ink-900 md:text-5xl lg:text-6xl;
+  }
+  .glass-card {
+    @apply rounded-3xl border border-ink-900/5 bg-white/70 backdrop-blur-xl shadow-[0_8px_30px_rgba(0,0,0,0.06)];
+  }
+  .red-card {
+    @apply rounded-3xl border border-white/10 bg-gradient-to-br from-brand-600 via-brand-700 to-brand-900 text-white shadow-brand-lg;
+  }
+  .text-gradient {
+    background: linear-gradient(135deg, #FF6600 0%, #ffb070 35%, #F26522 70%, #c44a17 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .shine-text {
+    background: linear-gradient(90deg, #1a1a1f 25%, #FF6600 50%, #1a1a1f 75%);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shine 4s linear infinite;
+  }
+  .noise {
+    position: relative;
+  }
+  .noise::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.04;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+}
+
+/* 3D perspective utilities */
+.perspective-1000 {
+  perspective: 1000px;
+}
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+/* Marquee divider */
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 40s linear infinite;
+}
+
+/* Subtle background grid */
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(255, 102, 0, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 102, 0, 0.06) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+.bg-grid-dark {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+/* Slide fade for marquee */
+.mask-fade-x {
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+/* Pontos de fundo */
+.bg-dots {
+  background-image: radial-gradient(rgba(255, 102, 0, 0.15) 1.2px, transparent 1.5px);
+  background-size: 28px 28px;
+}
+.bg-dots-dense {
+  background-image: radial-gradient(rgba(255, 102, 0, 0.18) 1px, transparent 1.5px);
+  background-size: 18px 18px;
+}
+
+/* Padrão de hexágonos sutil */
+.bg-honeycomb {
+  background-color: transparent;
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(255, 102, 0, 0.04) 25%, transparent 26%),
+    radial-gradient(circle at 50% 100%, rgba(255, 102, 0, 0.04) 25%, transparent 26%);
+  background-size: 40px 70px;
+}
+
+/* Raio (conic gradient) animado */
+@keyframes ray-rotate {
+  to { transform: rotate(360deg); }
+}
+.bg-ray {
+  position: relative;
+}
+.bg-ray::before {
+  content: '';
+  position: absolute;
+  inset: -50%;
+  background: conic-gradient(from 0deg, transparent 0deg, rgba(255, 102, 0, 0.06) 60deg, transparent 120deg, rgba(242, 101, 34, 0.04) 200deg, transparent 280deg);
+  animation: ray-rotate 30s linear infinite;
+  z-index: -1;
+}
+
+/* Blob morphing animado */
+@keyframes blob-morph {
+  0%, 100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+  50% { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
+}
+.blob-morph {
+  animation: blob-morph 18s ease-in-out infinite;
+}
+
+/* Glow pulsante */
+@keyframes glow-pulse {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.08); }
+}
+.glow-pulse {
+  animation: glow-pulse 6s ease-in-out infinite;
+}
+
+/* Linhas diagonais sutis (estilo industrial) */
+.bg-stripes {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(255, 102, 0, 0.04),
+    rgba(255, 102, 0, 0.04) 1px,
+    transparent 1px,
+    transparent 20px
+  );
+}

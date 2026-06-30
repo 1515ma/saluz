@@ -1,0 +1,52 @@
+# Dependências
+node_modules/
+.pnp
+.pnp.js
+
+# Builds
+dist/
+build/
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Coverage / testes
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.parcel-cache/
+.npm/
+.eslintcache
+.stylelintcache
+
+# Saída do TypeScript
+*.tsbuildinfo
+
+# Vercel
+.vercel
