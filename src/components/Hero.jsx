@@ -133,7 +133,7 @@ export default function Hero() {
             className="absolute -right-4 -bottom-4 lg:right-6 lg:bottom-6 w-44 lg:w-56 xl:w-64 rounded-3xl overflow-hidden border-4 border-white shadow-2xl shadow-black/20 bg-white"
           >
             <img
-              src="/images/sacola2.png"
+              src="/images/sacola2.webp"
               alt="Sacola plástica Saluz"
               className="w-full h-auto object-contain"
             />
