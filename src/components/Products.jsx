@@ -29,7 +29,7 @@ const products = [
     subtitle: 'Filme plástico bobinado',
     description:
       'Bobinas de filme plástico para automação industrial, envase e linhas de produção. Largura, espessura e tratamento sob medida.',
-    image: '/images/saluz-bobina.png',
+    image: '/images/bobina.webp',
     tags: ['Sob medida', 'Industrial', 'PE/PP'],
     icon: Layers,
   },
