@@ -49,7 +49,6 @@ const products = [
 const extras = [
   { icon: Scissors, title: 'Corte e Solda', text: 'Alça camiseta, boca lisa, com sanfona ou fundo reforçado.' },
   { icon: Palette, title: 'Cores Sob Medida', text: 'Pantone customizado para combinar exatamente com sua identidade.' },
-  { icon: Printer, title: 'Impressão Flexográfica', text: 'Até 6 cores com alta definição em rolo industrial.' },
 ];
 
 export default function Products() {
@@ -66,7 +65,7 @@ export default function Products() {
             </h2>
           </div>
           <p className="max-w-md text-ink-700/90 leading-relaxed">
-            Da sacola camiseta tradicional à personalizada com sua marca. Tudo produzido com tecnologia,
+            Camiseta tradicional. Tudo produzido com tecnologia,
             qualidade e a flexibilidade que seu negócio precisa.
           </p>
         </div>
