@@ -1,7 +1,6 @@
 import Hero from '../components/Hero.jsx';
 import About from '../components/About.jsx';
 import Products from '../components/Products.jsx';
-import LogoCustomizer from '../components/LogoCustomizer.jsx';
 import Process from '../components/Process.jsx';
 import Testimonials from '../components/Testimonials.jsx';
 import RecentPosts from '../components/RecentPosts.jsx';
