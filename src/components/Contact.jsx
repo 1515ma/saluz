@@ -76,7 +76,7 @@ export default function Contact() {
           >
             <span className="chip">FALE COM A SALUZ</span>
             <h2 className="section-title mt-5">
-              Vamos criar a embalagem <span className="text-gradient">perfeita</span> para você.
+              Vamos criar a sacola <span className="text-gradient">perfeita</span> para você.
             </h2>
             <p className="mt-5 text-lg text-ink-700/85 leading-relaxed">
               Preencha o formulário ou entre em contato pelos nossos canais. Nossa equipe responde em até
