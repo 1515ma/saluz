@@ -152,8 +152,8 @@ export default function ProcessoPage() {
         <div className="container-x">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-px bg-ink-900/5 rounded-3xl overflow-hidden border border-ink-900/5">
             {[
-              { value: '10+', label: 'Anos de experiência' },
-              { value: '500+', label: 'Clientes ativos' },
+              { value: '4+', label: 'Anos de experiência' },
+              { value: '100+', label: 'Clientes ativos' },
               { value: '2.5M', label: 'Sacolas / mês' },
               { value: '99%', label: 'Taxa de aprovação' },
             ].map((s, i) => (
