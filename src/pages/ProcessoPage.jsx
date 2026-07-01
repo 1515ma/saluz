@@ -39,7 +39,6 @@ const steps = [
 
 const certificacoes = [
   'Material PEAD/PEBD virgem',
-  'Impressão flexográfica padrão HD',
   'Controle de qualidade ISO',
   'Atende legislação ambiental',
   'Reaproveitamento 100% das aparas',
@@ -50,7 +49,7 @@ export default function ProcessoPage() {
     <>
       <SEO
         title="Nosso Processo Produtivo — Da Extrusão à Sacola Pronta"
-        description="Conheça o processo industrial da Saluz: extrusão, impressão flexográfica HD, corte, solda e expedição. Indústria verticalizada com controle de qualidade em todas as etapas."
+        description="Conheça o processo industrial da Saluz: extrusão, corte, solda e expedição. Indústria verticalizada com controle de qualidade em todas as etapas."
         url="/processo"
         jsonLd={breadcrumbSchema([
           { name: 'Início', url: '/' },
