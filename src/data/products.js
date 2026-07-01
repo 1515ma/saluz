@@ -61,7 +61,7 @@ export const products = [
     subtitle: 'Para automação e linhas de produção',
     description:
       'Bobinas de filme plástico técnico para automação industrial, envase, embalagem em linhas de produção e aplicações que exigem rolo contínuo. Largura, espessura e tratamento sob medida. Material: polietileno (PEAD/PEBD) ou polipropileno (PP).',
-    image: '/images/saluz-bobina.png',
+    image: '/images/bobina.wepb',
     badge: 'Industrial',
     icon: Layers,
     color: '#FF6600',
