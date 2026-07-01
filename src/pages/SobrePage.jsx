@@ -5,11 +5,9 @@ import CTA from '../components/CTA.jsx';
 import SEO, { breadcrumbSchema } from '../components/SEO.jsx';
 
 const timeline = [
-  { year: '2014', title: 'Fundação', text: 'A Saluz nasce em São Paulo com uma única extrusora e o sonho de produzir sacolas de qualidade.' },
-  { year: '2017', title: 'Primeira expansão', text: 'Conquistamos os primeiros 100 clientes recorrentes e dobramos a área da fábrica.' },
-  { year: '2020', title: 'Verticalização total', text: 'Internalizamos da extrusão à expedição, eliminando intermediários e ganhando agilidade.' },
-  { year: '2023', title: 'Impressão HD', text: 'Investimento em maquinário de impressão flexográfica até 6 cores com clichês HD.' },
-  { year: '2026', title: 'Sustentabilidade', text: 'Lançamento da linha de sacolas oxi-biodegradáveis e reaproveitamento de 100% das aparas.' },
+  { year: '2022', title: 'Fundação', text: 'A Saluz nasce em São Paulo com uma única extrusora e o sonho de produzir sacolas de qualidade.' },
+  { year: '2024', title: 'Primeira expansão', text: 'Conquistamos os primeiros 100 clientes recorrentes e dobramos a área da fábrica.' },
+  { year: '2026', title: 'Verticalização total', text: 'Internalizamos da extrusão à expedição, eliminando intermediários e ganhando agilidade.' },
 ];
 
 const valores = [
@@ -31,7 +29,7 @@ export default function SobrePage() {
     <>
       <SEO
         title="Sobre a Saluz Plastics — Indústria Verticalizada"
-        description="Conheça a Saluz: indústria verticalizada em sacolas plásticas desde 2014. Da extrusão à expedição, com mais de 10 anos de mercado, foco em qualidade e atendimento direto da fábrica."
+        description="Conheça a Saluz: indústria verticalizada em sacolas plásticas desde 2022. Da extrusão à expedição, com mais de 4 anos de mercado, foco em qualidade e atendimento direto da fábrica."
         url="/sobre"
         jsonLd={breadcrumbSchema([
           { name: 'Início', url: '/' },
@@ -59,13 +57,13 @@ export default function SobrePage() {
               Mais que sacolas: <span className="text-gradient">identidade em movimento</span>.
             </h2>
             <p className="mt-6 text-ink-700/85 text-lg leading-relaxed">
-              A Saluz nasceu em 2014 com uma proposta simples: produzir sacolas plásticas com excelência,
+              A Saluz nasceu em 2022 com uma proposta simples: produzir sacolas plásticas com excelência,
               entregando no prazo e atendendo de verdade. Em mais de uma década, viramos referência para
               centenas de varejistas, indústrias e distribuidoras de todo o país.
             </p>
             <p className="mt-4 text-ink-700/85 text-lg leading-relaxed">
               Acreditamos que <strong>cada sacola é uma extensão da marca</strong> que ela carrega. Por isso,
-              cuidamos do material à impressão com a mesma atenção que damos ao atendimento.
+              cuidamos do material com a mesma atenção que damos ao atendimento.
             </p>
           </motion.div>
 
@@ -78,12 +76,12 @@ export default function SobrePage() {
           >
             <div className="rounded-3xl bg-gradient-to-br from-brand-600 to-brand-900 text-white p-7 shadow-brand">
               <Factory className="h-10 w-10 mb-4" />
-              <p className="font-display text-3xl font-black">10+</p>
+              <p className="font-display text-3xl font-black">4+</p>
               <p className="text-sm text-white/80 mt-1">Anos de indústria</p>
             </div>
             <div className="rounded-3xl border border-ink-900/5 bg-white p-7 sm:translate-y-6">
               <Users className="h-10 w-10 text-brand-600 mb-4" />
-              <p className="font-display text-3xl font-black text-ink-900">500+</p>
+              <p className="font-display text-3xl font-black text-ink-900">100+</p>
               <p className="text-sm text-ink-700/70 mt-1">Clientes ativos</p>
             </div>
             <div className="rounded-3xl border border-ink-900/5 bg-white p-7">
