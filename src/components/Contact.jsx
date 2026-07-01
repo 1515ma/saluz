@@ -106,7 +106,7 @@ export default function Contact() {
                 {
                   icon: MapPin,
                   label: 'Endereço',
-                  value: 'Rua das Indústrias, 1234 — São Paulo / SP',
+                  value: 'Rua Carlopolis, 181 Guarulhos / SP — CEP 07170-540',
                 },
                 {
                   icon: Clock,
