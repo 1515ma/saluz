@@ -18,8 +18,7 @@ export default function Footer() {
               />
             </div>
             <p className="mt-6 text-white/65 max-w-md leading-relaxed">
-              Indústria especializada em sacolas plásticas tipo camiseta, bobinas e personalizadas com
-              impressão. Qualidade, prazo e personalização em cada sacola que produzimos.
+              Indústria especializada em sacolas plásticas tipo camiseta e bobinas. Qualidade, prazo e personalização em cada sacola que produzimos.
             </p>
             <div className="mt-7 flex gap-3">
               {[Instagram, Facebook, Linkedin].map((Icon, i) => (
