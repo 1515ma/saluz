@@ -49,6 +49,7 @@ const products = [
 const extras = [
   { icon: Scissors, title: 'Corte e Solda', text: 'Alça camiseta, boca lisa, com sanfona ou fundo reforçado.' },
   { icon: Palette, title: 'Cores Sob Medida', text: 'Pantone customizado para combinar exatamente com sua identidade.' },
+  { icon: ShoppingBag, title: 'Tamanho Sob Medida', text: 'Tamanho de acordo com a necessidade do cliente.' }
 ];
 
 export default function Products() {
