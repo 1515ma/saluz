@@ -16,10 +16,10 @@ export default function ProdutosPage() {
   return (
     <>
       <SEO
-        title="Produtos — Sacolas Plásticas, Bobinas e Personalizadas"
-        description="Linha completa de sacolas plásticas Saluz: tipo camiseta branca, personalizada com sua logo, bobinas industriais e sacolas coloridas. Produção sob medida."
+        title="Produtos — Sacolas Plásticas e Bobinas"
+        description="Linha completa de sacolas plásticas Saluz: tipo camiseta branca, bobinas industriais e sacolas coloridas. Produção sob medida."
         url="/produtos"
-        keywords="sacola camiseta, sacola personalizada, sacola plástica branca, sacola verde, bobina plástica, sacola com impressão"
+        keywords="sacola camiseta, sacola personalizada, sacola plástica branca, sacola verde, bobina plástica"
         jsonLd={breadcrumbSchema([
           { name: 'Início', url: '/' },
           { name: 'Produtos', url: '/produtos' },
@@ -29,7 +29,7 @@ export default function ProdutosPage() {
         chip="LINHA COMPLETA"
         title="Sacolas plásticas para"
         highlight="todo tipo de negócio."
-        description="Da sacola camiseta clássica à personalizada com impressão da sua marca. Conheça em detalhe cada produto que fabricamos."
+        description="Da sacola camiseta clássica. Conheça em detalhe cada produto que fabricamos."
         breadcrumbs={[{ label: 'Produtos' }]}
       />
 
