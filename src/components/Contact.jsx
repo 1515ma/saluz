@@ -198,10 +198,9 @@ export default function Contact() {
                       onChange={(e) => update('product', e.target.value)}
                       className="input-field"
                     >
-                      <option>Sacola camiseta</option>
-                      <option>Sacola personalizada (com impressão)</option>
-                      <option>Sacola branca (lisa)</option>
-                      <option>Sacola verde (ou outra cor)</option>
+                      <option>Sacola camiseta branca</option>
+                      <option>Sacola camiseta preta</option>
+                      <option>Sacola camiseta verde</option>
                       <option>Bobina</option>
                       <option>Outros</option>
                     </select>
