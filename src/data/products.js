@@ -89,7 +89,6 @@ export const products = [
     description:
       'Sacola tipo camiseta na cor verde, com alta opacidade e acabamento uniforme. Solução perfeita para marcas que querem se destacar nos pontos de venda com uma cor diferenciada. Trabalhamos também com outras cores sob consulta.',
     image: '/images/sacola verde.png',
-    tint: '#16a34a',
     badge: 'Colorida',
     icon: Leaf,
     color: '#16a34a',
