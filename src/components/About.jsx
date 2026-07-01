@@ -27,7 +27,6 @@ const features = [
 
 const bullets = [
   'Sacolas plásticas tipo camiseta em diversos tamanhos',
-  'Sacolas com impressão personalizada em até 6 cores',
   'Sacolas boca lisa e modelos para boutiques e moda',
   'Atendimento para pequenas, médias e grandes tiragens',
 ];
