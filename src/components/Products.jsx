@@ -39,7 +39,7 @@ const products = [
     subtitle: 'Identidade visual diferenciada',
     description:
       'Sacola tipo camiseta na cor verde — destaque sua marca com uma cor diferenciada nos pontos de venda. Disponível em outras cores sob consulta.',
-    image: '/images/sacola verde.png',
+    image: '/images/sacola verde.jpg',
     tint: '#16a34a',
     tags: ['Verde sólida', 'Outras cores', 'Personalizável'],
     icon: Leaf,
