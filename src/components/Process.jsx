@@ -13,11 +13,6 @@ const steps = [
     desc: 'Produzimos o filme plástico em nossa indústria com controle de espessura e largura.',
   },
   {
-    icon: Printer,
-    title: 'Impressão Flexográfica',
-    desc: 'Impressão em até 8 cores com clichês de alta resolução e acabamento profissional.',
-  },
-  {
     icon: Scissors,
     title: 'Corte e Solda',
     desc: 'Máquinas automatizadas que cortam o formato camiseta com precisão milimétrica.',
@@ -50,8 +45,8 @@ export default function Process() {
             Do filme em rolo à entrega da <span className="text-gradient">sacola pronta</span>.
           </h2>
           <p className="mt-6 text-lg text-white/70 max-w-2xl">
-            Toda a produção das sacolas é feita dentro da nossa indústria, garantindo controle de qualidade,
-            agilidade e personalização em cada etapa do processo.
+            Toda a produção das sacolas é feita dentro da nossa indústria, garantindo controle de qualidade e
+            agilidadeo em cada etapa do processo.
           </p>
         </div>
 
