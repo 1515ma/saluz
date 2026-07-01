@@ -85,8 +85,8 @@ export default function Process() {
         {/* stats faixa */}
         <div className="mt-24 grid grid-cols-2 lg:grid-cols-4 gap-px bg-white/10 rounded-3xl overflow-hidden border border-white/10">
           {[
-            { value: '10+', label: 'Anos de experiência' },
-            { value: '500+', label: 'Clientes ativos' },
+            { value: '04+', label: 'Anos de experiência' },
+            { value: '50+', label: 'Clientes ativos' },
             { value: '2.5M', label: 'Sacolas / mês' },
             { value: '99%', label: 'Taxa de aprovação' },
           ].map((s, i) => (
