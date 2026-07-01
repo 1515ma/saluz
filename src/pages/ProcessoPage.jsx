@@ -18,12 +18,6 @@ const steps = [
     items: ['Matéria-prima PEAD/PEBD', 'Controle micrométrico de espessura', 'Aditivos sob demanda'],
   },
   {
-    icon: Printer,
-    title: 'Impressão Flexográfica',
-    desc: 'Impressão em até 6 cores com clichês de alta resolução e acabamento profissional.',
-    items: ['Até 6 cores', 'Clichês HD', 'Acabamento brilho ou fosco'],
-  },
-  {
     icon: Scissors,
     title: 'Corte e Solda',
     desc: 'Máquinas de corte e solda automatizadas com precisão milimétrica.',
