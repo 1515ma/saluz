@@ -4,14 +4,14 @@ import { ArrowUpRight, ShoppingBag, Layers, Printer, Scissors, Palette, Leaf, Sh
 
 const products = [
   {
-    id: 'sacola-personalizada',
-    title: 'Sacola Personalizada',
-    subtitle: 'Impressão da sua marca',
+    id: 'sacola-preta',
+    title: 'Sacola preta',
+    subtitle: 'Impressão de sacolas pretas',
     description:
-      'Sacolas impressas em flexografia com sua logo, cores e mensagens. Transforme cada entrega em divulgação ambulante da sua marca.',
-    image: '/images/saluz-sacola.png',
-    tags: ['Até 6 cores', 'Logo personalizada', 'Brilho ou fosco'],
-    icon: Printer,
+      'Sacola tipo camiseta preta opaca, lisa, sem impressão. Solução econômica e versátil para qualquer tipo de comércio que precisa de embalagem prática.',
+    image: '/images/sacola preta.png',
+    tags: ['Sacola Lisa', 'Sacola Preta', 'Brilho ou fosco'],
+    icon: ShoppingBag,
   },
   {
     id: 'sacola-branca',
