@@ -41,7 +41,7 @@ export const posts = [
     date: '2026-05-03',
     readTime: '8 min',
     author: 'Equipe Saluz',
-    cover: '/images/sacola-cozinha.png',
+    cover: '/images/sacola preta.png',
     content: [
       {
         h: 'Sacola tipo camiseta',
@@ -79,7 +79,7 @@ export const posts = [
     date: '2026-04-25',
     readTime: '5 min',
     author: 'Equipe Saluz',
-    cover: '/images/sacola-cozinha.png',
+    cover: '/images/saluz-sacola.png',
     content: [
       {
         h: 'O plástico não é o vilão — o descarte é',
