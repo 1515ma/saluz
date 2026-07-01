@@ -35,7 +35,7 @@ export default function Hero() {
             initial="hidden"
             animate="visible"
             custom={1}
-            className="mt-6 font-display text-5xl md:text-6xl xl:text-7xl 2xl:text-8xl font-black leading-[1.02] tracking-tight"
+            className="mt-6 font-display text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl font-black leading-[1.02] tracking-tight"
           >
             Sacolas plásticas <br />
             de alta resistência <br />
